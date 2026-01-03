@@ -1,2 +1,4 @@
 # s-pless.github.io
-test for IAT
+theme: jekyll-theme-minimal
+title: Sille's homepage
+description: Bookmark this to keep an eye on my project updates!
