@@ -37,24 +37,24 @@ define(['managerAPI',
         //Select randomly what attribute words to see. 
         //Based on Axt, Feng, & Bar-Anan (2021).
         posWords : API.shuffle([
-            'Love', 'Cheer', 'Friend', 'Pleasure',
-            'Adore', 'Cheerful', 'Friendship', 'Joyful', 
-            'Smiling','Cherish', 'Excellent', 'Glad', 
-            'Joyous', 'Spectacular', 'Appealing', 'Delight', 
-            'Excitement', 'Laughing', 'Attractive','Delightful', 
-            'Fabulous', 'Glorious', 'Pleasing', 'Beautiful', 
-            'Fantastic', 'Happy', 'Lovely', 'Terrific', 
-            'Celebrate', 'Enjoy', 'Magnificent', 'Triumph'
+            'Liebe', 'Freude', 'Freund', 'Genuss',
+            'Anbeten', 'Fröhlich', 'Freundschaft', 'Freudig',
+			'Lächelnd','Schätzen', 'Ausgezeichnet', 'Froh',
+			'Freudenreich', 'Spektakulär', 'Ansprechend', 'Freude',
+			'Aufregung', 'Lachend', 'Attraktiv','Entzückend',
+			'Fabelhaft', 'Glorreich', 'Angenehm', 'Schön',
+			'Fantastisch', 'Glücklich', 'Lieblich', 'Großartig',
+			'Feiern', 'Genießen', 'Prächtig', 'Triumph'
         ]), 
         negWords : API.shuffle([
-            'Abuse', 'Grief', 'Poison', 'Sadness', 
-            'Pain', 'Despise', 'Failure', 'Nasty', 
-            'Angry', 'Detest', 'Horrible', 'Negative', 
-            'Ugly', 'Dirty', 'Gross', 'Evil', 
-            'Rotten','Annoy', 'Disaster', 'Horrific',  
-            'Scorn', 'Awful', 'Disgust', 'Hate', 
-            'Humiliate', 'Selfish', 'Tragic', 'Bothersome', 
-            'Hatred', 'Hurtful', 'Sickening', 'Yucky'
+          'Missbrauch', 'Trauer', 'Gift', 'Traurigkeit',
+			'Schmerz', 'Verachten', 'Versagen', 'Gemein',
+			'Wütend', 'Hassen', 'Schrecklich', 'Negativ',
+			'Hässlich', 'Schmutzig', 'Ekelhaft', 'Böse',
+			'Verdorben','Ärgern', 'Katastrophe', 'Grauenhaft',
+			'Verachtung', 'Furchtbar', 'Ekel', 'Hass',
+			'Demütigen', 'Selbstsüchtig', 'Tragisch', 'Lästig',
+			'Hassgefühl', 'Verletzend', 'Widerlich', 'Igitt'
         ])
     });
 
